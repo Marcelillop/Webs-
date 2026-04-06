@@ -1,0 +1,51 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#texto{
+    border: solid 2px;
+    width: 700px;
+    text-align: center;
+    font-style: italic;
+}
+
+#uno{
+    width: 700px;
+    margin-top: 30px;
+    border-color: rgb(231, 255, 255);
+}
+
+.insertar{
+    display: flex;
+}
+.insertar input{
+
+    margin-left: 6px;
+    height: 3vh;
+    align-self: center;
+    width: 200px;
+}
+
+#dos{
+    width: 700px;
+    border-color: rgb(231, 255, 255);
+}
+
+.colores{
+    display: flex;
+
+}
+
+.colores input{
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tres{
+    width: 700px;
+    border-color: rgb(231, 255, 255);
+}
