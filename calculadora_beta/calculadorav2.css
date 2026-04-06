@@ -1,0 +1,70 @@
+
+
+
+.contenedor img{
+
+    height: 600px;
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    border: solid 2px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    background-image: url(algebra.jpg);
+    background-size: 200px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+}
+
+.botones {
+    position: absolute;
+    top: 375px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 28px;
+    column-gap: 40px;
+}
+
+#pantalla {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 32%;
+    height: 40px;
+    text-align: right;
+    font-size: 22px;
+}
+
+.botones button {
+    height: 50px;
+    background: transparent;
+    border: none; 
+    cursor: pointer;
+    content-visibility: hidden;
+    
+}
+
+.botones button:hover{
+
+    /*border: solid 6px;
+    border-color: rgb(247, 230, 186);*/
+    opacity: 1.2;
+    cursor: pointer;
+}
