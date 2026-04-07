@@ -1,0 +1,52 @@
+.contenedor{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h3{
+    margin-left: 18px;
+}
+
+.cajas{
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+button{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+input{
+    background-color: rgb(236, 169, 107);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+select{
+    background-color: rgb(236, 169, 107);
+    font-weight: bolder;
+    font-size: larger;
+}
+label{
+    font-weight: bold;
+    font-size: larger;
+}
+
+#radio{
+    width: 18px;
+    height: 18px;
+}
+
+#check{
+    width: 18px;
+    height: 18px;
+}
+
