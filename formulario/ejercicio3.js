@@ -27,16 +27,3 @@ function caja(){
 
 capturar.onclick = caja
 
-function desahibilitar(){
-    
-    let radio = document.getElementById("radio").checked
-    
-    if (radio == true) {
-        document.getElementById('radio').checked = false;
-    }
-    else{
-        document.getElementById('radio').checked = true;
-    }
-}
-
-radio.onclick = desahibilitar
